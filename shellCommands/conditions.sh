@@ -1,6 +1,6 @@
 #!/bin/bash -x
 var1=15
-var2=25
+var2=30
 if [ $var2 -gt $var1 ]
 then
 	echo "$var2 is greater than $var1"
