@@ -1,5 +1,5 @@
 #!/bin/bash -x
-counter=0
+counter=10
 Fruits[((counter++))]="Apple"
 Fruits[((counter++))]="Banana"
 Fruits[((counter++))]="Orange"
