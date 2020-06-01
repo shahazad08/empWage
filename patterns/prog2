@@ -1,0 +1,9 @@
+#!/bin/bash -x
+pat="^([0-9]*[a-zA-Z]){2,}[0-9]*$"
+any="aa1"
+if [[ $any =~ $pat ]]
+then
+	echo yes;
+else
+	echo no;
+fi
